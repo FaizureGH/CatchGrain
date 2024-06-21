@@ -17,7 +17,7 @@ public class moveScript : MonoBehaviour
     void FixedUpdate()
     {
         X = Input.GetAxisRaw("Horizontal");
-        rb.AddForce(X * speed, 0, 0);
+        rb.AddForce(- X * speed, 0, 0);
 
         
     }
