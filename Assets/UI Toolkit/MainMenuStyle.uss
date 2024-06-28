@@ -1,0 +1,15 @@
+.header {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+
+.button {
+    transition-duration: 0.02s;
+    transition-timing-function: ease-in;
+}
+
+.button:hover {
+    scale: 1.1 1.1;
+    -unity-background-image-tint-color: rgb(255, 0, 0);
+    transition-timing-function: ease-in;
+}
