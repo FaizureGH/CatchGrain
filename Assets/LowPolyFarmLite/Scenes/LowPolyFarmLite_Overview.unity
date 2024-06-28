@@ -427,6 +427,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 253206626323424970, guid: 7ddfa3a1d18174043aab251be6df3a0e, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 253206626323424970, guid: 7ddfa3a1d18174043aab251be6df3a0e, type: 3}
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
@@ -519,7 +523,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5d1cd35570dc600419da732416cfb76c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.03
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5d1cd35570dc600419da732416cfb76c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1383,7 +1387,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73c1c7355340b87478ca48629097d75c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 8
+  speed: 10
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
