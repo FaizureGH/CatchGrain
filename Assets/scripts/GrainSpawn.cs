@@ -13,7 +13,7 @@ public class GrainSpawn : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("SpawnBall", 4f, 4f);
+        InvokeRepeating("SpawnBall", 1f, 4f);
     }
 
     // Update is called once per frame

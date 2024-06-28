@@ -15,12 +15,21 @@ public class DestroyScript : MonoBehaviour
     {
         
     }
-    private void OnCollisionEnter(Collision collision)
+    private void OnCollisionEnter(Collision other)
     {
-        if (collision.gameObject.tag == "Sparrow")
+        if (other.gameObject.tag == "Sparrow")
+        {
+            Destroy(gameObject);
+            Debug.Log("Grain consumed!");
+        }
+        else  if (other.gameObject.tag == "Ground")
         {
             Destroy(gameObject);
             Debug.Log("Grain destroyed!");
+        }
+        else
+        {
+            Destroy(gameObject, 5f);
         }
     }
 }
