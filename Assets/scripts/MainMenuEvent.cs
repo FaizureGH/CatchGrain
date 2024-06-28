@@ -19,7 +19,7 @@ public class MainMenuEvent : MonoBehaviour
         quit.RegisterCallback<ClickEvent>(QuitGame);
 
     }
-    private void OnDisable()
+    private void OnDisable() 
     {
         Button.UnregisterCallback<ClickEvent>(OnPlayGameClick);
     }
