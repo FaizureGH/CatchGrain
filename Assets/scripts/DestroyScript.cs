@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DestroyScript : MonoBehaviour
 {
@@ -30,6 +31,10 @@ public class DestroyScript : MonoBehaviour
         else
         {
             Destroy(gameObject, 5f);
+            SceneManager.LoadSceneAsync("GameOver");
+            Debug.Log("gameOver");
+
         }
     }
+
 }
